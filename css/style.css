@@ -1,6 +1,4 @@
-.article{
-    
-}
+/* davaleba 1 */
 .div{
     display: flex;
     width: min(100% 1440px);
@@ -25,3 +23,61 @@
     box-shadow: inset -5px -5px 10px rgb(255, 255, 255) ,  inset 5px 5px 10px rgb(0, 0, 0) ;
     text-shadow: none;
 }
+
+
+
+/* davaleba 2 */
+.card {
+    margin:50px auto;
+    width: 500px;
+    height: 300px;
+    transition: all 1s linear;
+    box-shadow: none;
+    border-radius: none;
+    padding: 20px 5px;
+  }
+  
+  .japan {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: all 1s linear;
+    border-radius: none;
+  }
+  
+  .text {
+    margin-top: 25px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .card:hover, .card:hover .japan {
+    box-shadow: -3px -3px 40px 0px red, 3px 3px 40px 0px red;
+    border-radius: 10px;
+}
+
+.card:hover .japan {
+    box-shadow: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+/* davaleba 3 */
+
+.text2 {
+    font-size: 140px;
+    color: red;
+    letter-spacing: 20px;
+    animation-name: shining;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shining {
+    from {
+      opacity: 0.1;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
